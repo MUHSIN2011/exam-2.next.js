@@ -38,7 +38,9 @@ function HomePage() {
             <div className="h-12 w-12 animate-spin rounded-full border-4 border-solid border-[#FFA900] border-t-transparent"></div>
         </div>
     );
-    if (error) return <p>Хатогӣ рӯй дод!</p>;
+    if (error) return <div className='flex justify-center items-center h-[90vh]'>
+        <h1 className='text-2xl'>Интернет нест ё хомуш кард шуд!</h1>
+    </div>;;
 
     const pages = [1, 2, 3];
 
