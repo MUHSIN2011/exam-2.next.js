@@ -1,0 +1,342 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "Muhsin"
+    }
+  ],
+  "news": [
+    {
+      "title": "Title 1",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "date": "2025-01-10",
+      "status": "false",
+      "img": "/img/image 20.png",
+      "id": "1"
+    },
+    {
+      "title": "Title 3",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 3",
+      "date": "2025-01-12",
+      "status": "false",
+      "img": "/img/image.png",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Title 3",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image 20 (1).png",
+      "status": "false"
+    },
+    {
+      "id": "4",
+      "title": "Title 4",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (3).png",
+      "status": "true"
+    },
+    {
+      "id": "5",
+      "title": "Title 5",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (2).png",
+      "status": "false"
+    },
+    {
+      "id": "6",
+      "title": "Title 6",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (3).png",
+      "status": "true"
+    },
+    {
+      "id": "7",
+      "title": "Title 7",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (1).png",
+      "status": "true"
+    },
+    {
+      "id": "8",
+      "title": "Title 8",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image.png",
+      "status": "true"
+    },
+    {
+      "id": "9",
+      "title": "Title 9",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "date": "2025-01-10",
+      "img": "/img/image 20.png",
+      "status": "false"
+    },
+    {
+      "id": "10",
+      "title": "Title 10",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image.png",
+      "status": "true"
+    },
+    {
+      "id": "11",
+      "title": "Title 11",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (1).png",
+      "status": "true"
+    },
+    {
+      "id": "12",
+      "title": "Title 12",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image 20 (1).png",
+      "status": "false"
+    },
+    {
+      "title": "Супервайзер 1",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане",
+      "city": "вахдат",
+      "status": "true",
+      "id": "13"
+    },
+    {
+      "id": "14",
+      "title": "Title 14",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (2).png",
+      "status": "false"
+    },
+    {
+      "id": "15",
+      "title": "Title 15",
+      "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse. 2",
+      "date": "2025-01-12",
+      "img": "/img/image (3).png",
+      "status": "true"
+    }
+  ],
+  "vacancy": [
+    {
+      "id": "1",
+      "position": "Торговый представитель",
+      "city": "Душанбе",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП1 О компании: Мы — развивающийся производитель туалетного и хозяйственного мыла",
+      "status": "true"
+    },
+    {
+      "id": "2",
+      "position": "Мерчандайзер",
+      "city": "Худжанд",
+      "description": "Полный рабочий день. О компании: Мы - крупнейшая дистрибуционная компания в Таджикистане, с многолетним опытом на рынке",
+      "status": "true"
+    },
+    {
+      "id": "3",
+      "position": "Супервайзер",
+      "city": "Бохтар",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане",
+      "status": "true"
+    },
+    {
+      "id": "4",
+      "position": "Торговый представитель",
+      "city": "Душанбе",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП1 О компании: Мы — развивающийся производитель туалетного и хозяйственного мыла",
+      "status": "true"
+    },
+    {
+      "id": "5",
+      "position": "Мерчандайзер",
+      "city": "Худжанд",
+      "description": "Полный рабочий день. О компании: Мы - крупнейшая дистрибуционная компания в Таджикистане, с многолетним опытом на рынке",
+      "status": "false"
+    },
+    {
+      "id": "6",
+      "position": "Супервайзер",
+      "city": "Бохтар",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане",
+      "status": "true"
+    },
+    {
+      "id": "7",
+      "position": "Торговый представитель",
+      "city": "Душанбе",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП1 О компании: Мы — развивающийся производитель туалетного и хозяйственного мыла",
+      "status": "true"
+    },
+    {
+      "id": "8",
+      "position": "Мерчандайзер",
+      "city": "Худжанд",
+      "description": "Полный рабочий день. О компании: Мы - крупнейшая дистрибуционная компания в Таджикистане, с многолетним опытом на рынке",
+      "status": "false"
+    },
+    {
+      "id": "9",
+      "position": "Супервайзер",
+      "city": "Бохтар",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане",
+      "status": "true"
+    },
+    {
+      "id": "10",
+      "position": "Супервайзер",
+      "city": "Бохтар",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане",
+      "status": "true"
+    },
+    {
+      "id": "11",
+      "position": "Торговый представитель",
+      "city": "Душанбе",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП1 О компании: Мы — развивающийся производитель туалетного и хозяйственного мыла",
+      "status": "true"
+    },
+    {
+      "id": "12",
+      "position": "Мерчандайзер",
+      "city": "Худжанд",
+      "description": "Полный рабочий день. О компании: Мы - крупнейшая дистрибуционная компания в Таджикистане, с многолетним опытом на рынке",
+      "status": "false"
+    },
+    {
+      "position": "Торговый представитель 2",
+      "description": "Супервайзер отдела продаж, Душанбе и РРП. О компании: Мы крупнейшая дистрибуционная компания в Таджикистане 2",
+      "city": "Бохтар2",
+      "status": "true",
+      "id": "13"
+    }
+  ],
+  "application": [
+    {
+      "id": "2",
+      "name": "Carlton McGlynn",
+      "phone": "485.902.2884 x54686",
+      "email": "Annie_Homenick99@hotmail.com",
+      "company": "Tech Solutions",
+      "date": "12.01.2025",
+      "status": "true"
+    },
+    {
+      "id": "4",
+      "name": "Mercedes Boyle",
+      "phone": "1-699-749-1798 x00112",
+      "email": "Gustave_Graham77@gmail.com",
+      "company": "Global Logistics",
+      "date": "13.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "6",
+      "name": "Annette Cormier",
+      "phone": "(606) 535-5749 x291",
+      "email": "Rubie.Kihn98@hotmail.com",
+      "company": "Soft LLC",
+      "date": "14.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "7",
+      "name": "Louis Skiles",
+      "phone": "(363) 546-7200",
+      "email": "Dahlia5@yahoo.com",
+      "company": "Skiles Agency",
+      "date": "14.01.2025",
+      "status": "true"
+    },
+    {
+      "id": "8",
+      "name": "Marco Cummings",
+      "phone": "(338) 841-7653 x03247",
+      "email": "Neha.Reynolds31@yahoo.com",
+      "company": "Reynolds IT",
+      "date": "15.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "9",
+      "name": "Salvatore Kertzmann",
+      "phone": "769.620.1051 x064",
+      "email": "Juvenal3@hotmail.com",
+      "company": "Kertzmann Corp",
+      "date": "15.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "10",
+      "name": "Ida Stoltenberg",
+      "phone": "1-968-594-2607",
+      "email": "Ressie.Bayer@hotmail.com",
+      "company": "Stoltenberg Partners",
+      "date": "16.01.2025",
+      "status": "true"
+    },
+    {
+      "id": "11",
+      "name": "Jaime Bogan-Herzog",
+      "phone": "1-569-590-5924 x7392",
+      "email": "Candace32@hotmail.com",
+      "company": "Bogan Group",
+      "date": "16.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "12",
+      "name": "Jacqueline Bergnaum-Lehner",
+      "phone": "1-597-988-9532",
+      "email": "Cory_Mertz95@hotmail.com",
+      "company": "Mertz Solutions",
+      "date": "17.01.2025",
+      "status": "true"
+    },
+    {
+      "id": "13",
+      "name": "Hubert O'Reilly",
+      "phone": "(409) 470-5762 x159",
+      "email": "Vella.Yundt99@hotmail.com",
+      "company": "O'Reilly & Co",
+      "date": "17.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "14",
+      "name": "Ed Hills",
+      "phone": "1-321-855-6465 x6558",
+      "email": "Giovanny.Kassulke82@yahoo.com",
+      "company": "Hills Tech",
+      "date": "18.01.2025",
+      "status": "true"
+    },
+    {
+      "id": "15",
+      "name": "Gustavo Bauch",
+      "phone": "666-808-0512 x46862",
+      "email": "April_Mueller46@yahoo.com",
+      "company": "Bauch Industries",
+      "date": "18.01.2025",
+      "status": "false"
+    },
+    {
+      "id": "16",
+      "name": "Alison Toy",
+      "phone": "442-988-2797",
+      "email": "Cierra_Maggio@yahoo.com",
+      "company": "Toy Design",
+      "date": "19.01.2025",
+      "status": "true"
+    }
+  ]
+}
