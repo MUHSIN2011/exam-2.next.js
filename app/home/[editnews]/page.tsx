@@ -50,7 +50,7 @@ function EditNewsPage() {
 
     const [image, setImage] = useState<string | null>(null);
 
-    const { data, isLoading } = useGetNewsByIdQuery(editnews);
+    const { data, isLoading } = useGetNewsByIdQuery(editnews as string);
 
     useEffect(() => {
         if (data) {
@@ -68,7 +68,7 @@ function EditNewsPage() {
     const onSubmit = async (formData: any) => {
         try {
             await updateNews({
-                id: editnews,
+                id: editnews as string,
                 data: {
                     ...formData,
                     img: image,

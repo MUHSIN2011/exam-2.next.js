@@ -20,7 +20,7 @@ function HomePage() {
     const limit = 6;
 
     const { data: vacancy, isLoading, error } = useGetVacancyQuery({ page, limit });
-    const [deleteTodo,] = useDeletevacancyMutation({ page, limit });
+    const [deleteTodo] = useDeletevacancyMutation();
     const [updateVacancy] = useUpdateVacancyMutation();
 
     const router = useRouter();
@@ -67,7 +67,7 @@ function HomePage() {
         }
     };
 
-    const onStatus = async (e: object) => {
+    const onStatus = async (e: IVacancy) => {
         try {
             await EditStatus(e)
             toast.success('Successfully Status');

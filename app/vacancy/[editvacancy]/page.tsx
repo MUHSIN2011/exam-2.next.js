@@ -13,17 +13,17 @@ import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 export interface IVacancy {
-  id: string;
-  position: string;
-  description: string;
-  city: string;
-  status: string;
-  phone?: string;
-  email?: string;
+    id: string;
+    position: string;
+    description: string;
+    city: string;
+    status: string;
+    phone?: string;
+    email?: string;
 }
 
 function EditVacancyPage() {
-    const { editvacancy } = useParams<string>();
+    const { editvacancy } = useParams();
 
     const router = useRouter();
 
@@ -37,7 +37,7 @@ function EditVacancyPage() {
     } = useForm<IVacancy>();
 
 
-    const { data } = useGetVacancyByIdQuery(editvacancy);
+    const { data } = useGetVacancyByIdQuery(editvacancy as string);
 
     useEffect(() => {
         if (data) {
@@ -54,7 +54,7 @@ function EditVacancyPage() {
     const onSubmit = async (formData: IVacancy) => {
         try {
             await updateVacancy({
-                id: editvacancy,
+                id: editvacancy as string,
                 data: {
                     ...formData,
                 },
@@ -83,9 +83,9 @@ function EditVacancyPage() {
                         <input
                             {...register("position", { required: true })}
                             placeholder="Название"
-                            className={`border p-3 rounded-xl w-full outline-none focus:border-[#FFA900] ${errors.title ? 'border-red-500' : ''}`}
+                            className={`border p-3 rounded-xl w-full outline-none focus:border-[#FFA900] ${errors.position ? 'border-red-500' : ''}`}
                         />
-                        {errors.title && <p className="text-red-500 text-xs mt-1">{errors.title.message as string}</p>}
+                        {errors.position && <p className="text-red-500 text-xs mt-1">{errors.position.message as string}</p>}
                     </div>
 
                     <textarea

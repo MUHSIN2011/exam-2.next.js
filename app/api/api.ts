@@ -1,6 +1,24 @@
 // Need to use the React-specific entry point to import createApi
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
+export interface IVacancy {
+    id: string;
+    position: string;
+    description: string;
+    city: string;
+    status: string;
+}
+
+export interface INews {
+    title: string,
+    description: string,
+    date: string,
+    status: string,
+    img: string,
+    id: number
+}
+
+
 // Define a service using a base URL and expected endpoints
 export const pokemonApi = createApi({
     reducerPath: 'pokemonApi',
@@ -21,7 +39,7 @@ export const pokemonApi = createApi({
             }),
             invalidatesTags: ['Todo'],
         }),
-        AddNew: builder.mutation<void, ITodo>({
+        AddNew: builder.mutation<void, INews>({
             query: (todo) => ({
                 url: `news`,
                 method: 'POST',
@@ -64,7 +82,7 @@ export const pokemonApi = createApi({
             }),
             invalidatesTags: ['Todo'],
         }),
-        Addvacancy: builder.mutation<void, ITodo>({
+        Addvacancy: builder.mutation<void, IVacancy>({
             query: (todo) => ({
                 url: `vacancy`,
                 method: 'POST',
@@ -81,4 +99,4 @@ export const pokemonApi = createApi({
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useLazyLoginQuery, useGetNewsQuery, useDeleteNewsMutation, useAddNewMutation, useUpdateNewsMutation, useGetNewsByIdQuery, useGetVacancyQuery, useDeletevacancyMutation, useAddvacancyMutation, useGetApplicationQuery,useGetVacancyByIdQuery,useUpdateVacancyMutation } = pokemonApi
+export const { useLazyLoginQuery, useGetNewsQuery, useDeleteNewsMutation, useAddNewMutation, useUpdateNewsMutation, useGetNewsByIdQuery, useGetVacancyQuery, useDeletevacancyMutation, useAddvacancyMutation, useGetApplicationQuery, useGetVacancyByIdQuery, useUpdateVacancyMutation } = pokemonApi

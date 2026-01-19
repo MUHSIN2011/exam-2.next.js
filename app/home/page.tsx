@@ -7,6 +7,14 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import toast, { Toaster } from 'react-hot-toast';
 
+export interface INews {
+    title: string,
+    description: string,
+    date: string,
+    status: string,
+    img: string,
+    id: string
+}
 function page() {
     const [page, setPage] = useState(1);
     const limit = 6;
@@ -84,7 +92,7 @@ function page() {
                 </div>
                 <div className='grid grid-cols-3 py-3 gap-4'>
                     {
-                        news.data?.map((e) => (
+                        news.data?.map((e: INews) => (
                             <div key={e.id} className='border hover:translate-y-2 duration-300 p-2 rounded-2xl '>
                                 <div
                                     style={{ backgroundImage: `url("${e.img}")` }}
